@@ -5,7 +5,7 @@ import (
 	"net"
 )
 
-//GetExternalIP returns an external ip of current machine
+// GetExternalIP returns an external ip of current machine
 func GetExternalIP() (string, error) {
 	ifaces, err := net.Interfaces()
 	if err != nil {
